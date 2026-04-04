@@ -32,15 +32,19 @@ Built to demonstrate proficiency in SQL Server, data modeling, DAX, and Power BI
 
 ## Architecture
 Raw AdventureWorks Tables
+
 ↓
 
 Analytics Schema (SQL Views)
+
 ↓
 
 Star Schema Data Model (Power BI)
+
 ↓
 
 DAX Measures
+
 ↓
 
 Interactive Dashboard
