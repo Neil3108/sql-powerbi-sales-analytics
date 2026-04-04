@@ -11,10 +11,10 @@ Built to demonstrate proficiency in SQL Server, data modeling, DAX, and Power BI
 ![Executive Summary](https://github.com/Neil3108/sql-powerbi-sales-analytics/blob/main/screenshots/Executive%20Summary.png)
 
 ### Customer Analysis
-![Customer Analysis](screenshots/Customer_Analysis.png)
+![Customer Analysis](https://github.com/Neil3108/sql-powerbi-sales-analytics/blob/main/screenshots/Customer%20Analysis.png)
 
 ### Product Analysis
-![Product Analysis](screenshots/Product_Analysis.png)
+![Product Analysis](https://github.com/Neil3108/sql-powerbi-sales-analytics/blob/main/screenshots/Product%20Analysis.png)
 
 ## Business Questions Answered
 - Which products and territories drive the most revenue?
