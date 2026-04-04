@@ -8,7 +8,7 @@ Built to demonstrate proficiency in SQL Server, data modeling, DAX, and Power BI
 ## Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](screenshots/Executive_Summary.png)
+![Executive Summary](https://github.com/Neil3108/sql-powerbi-sales-analytics/blob/main/screenshots/Executive%20Summary.png)
 
 ### Customer Analysis
 ![Customer Analysis](screenshots/Customer_Analysis.png)
