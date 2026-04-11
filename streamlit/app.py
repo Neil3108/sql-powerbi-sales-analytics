@@ -12,12 +12,11 @@ st.set_page_config(
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    sales = pd.read_csv("data/sales_fact.csv")
-    customers = pd.read_csv("data/customer_summary.csv")
-    rfm = pd.read_csv("data/rfm_segments.csv")
-    mom = pd.read_csv("data/mom_growth.csv")
+    sales = pd.read_csv("streamlit/data/sales_fact.csv")
+    customers = pd.read_csv("streamlit/data/customer_summary.csv")
+    rfm = pd.read_csv("streamlit/data/rfm_segments.csv")
+    mom = pd.read_csv("streamlit/data/mom_growth.csv")
     
-    # Convert date columns
     sales["OrderDate"] = pd.to_datetime(sales["OrderDate"])
     mom["MonthStart"] = pd.to_datetime(mom["MonthStart"])
     
