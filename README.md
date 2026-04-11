@@ -1,4 +1,4 @@
-# Sales Analytics - SQL Server + Power BI
+# Sales Analytics - SQL Server + Power BI + Streamlit
 
 ## Overview
 End-to-end business intelligence project analyzing sales performance, customer segmentation, and product trends for AdventureWorks2022, a fictional bicycle manufacturer dataset provided by Microsoft.
@@ -10,7 +10,7 @@ Explore the fully interactive version of this dashboard:
 
 [View Live Dashboard](https://sql-powerbi-sales-analytics-rrs2rxsbejear2mxdznyua.streamlit.app/)
 
-Built with Streamlit and Plotly — no setup required, runs in your browser.
+Built with Streamlit and Plotly - no setup required, runs in your browser.
 
 ## Dashboard Preview
 
@@ -36,6 +36,9 @@ Built with Streamlit and Plotly — no setup required, runs in your browser.
 | SSMS | Query development |
 | Power BI Desktop | Data modeling and dashboard |
 | DAX | KPI measures and time intelligence |
+| Python + Streamlit | Interactive web dashboard |
+| Plotly | Interactive chart library |
+| Pandas | Data manipulation |
 
 ## Architecture
 Raw AdventureWorks Tables
@@ -50,11 +53,11 @@ Star Schema Data Model (Power BI)
 
 ↓
 
-DAX Measures
+DAX Measures → Power BI Dashboard (.pbix)
 
 ↓
 
-Interactive Dashboard
+CSV Export → Streamlit App (Live URL)
 
 ## SQL Layer
 Built an `analytics` schema on top of raw AdventureWorks tables with three views:
@@ -100,6 +103,10 @@ Star schema built in Power BI with:
 **Product Analysis** - Top 10 products by revenue, subcategory treemap, and revenue by category over time showing year over year category performance.
 
 ## How to Use
+### Option 1 — Live Streamlit App (Recommended)
+[View Live Dashboard](https://sql-powerbi-sales-analytics-rrs2rxsbejear2mxdznyua.streamlit.app/) — no setup required
+
+### Option 2 — Power BI Desktop
 1. Download `powerbi/sales_analytics.pbix`
-2. Open in Power BI Desktop
-3. The dataset is imported so all visuals are fully interactive without a SQL Server connection
+2. Open in Power BI Desktop (free at powerbi.microsoft.com)
+3. All data is imported — fully interactive without any additional setup
