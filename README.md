@@ -8,7 +8,7 @@ Built to demonstrate proficiency in SQL Server, data modeling, DAX, and Power BI
 ## Interactive App
 Explore the fully interactive version of this dashboard:
 
-[View Live Dashboard]()
+[View Live Dashboard](https://sql-powerbi-sales-analytics-rrs2rxsbejear2mxdznyua.streamlit.app/)
 
 Built with Streamlit and Plotly — no setup required, runs in your browser.
 
