@@ -5,6 +5,13 @@ End-to-end business intelligence project analyzing sales performance, customer s
 
 Built to demonstrate proficiency in SQL Server, data modeling, DAX, and Power BI dashboard design.
 
+## Interactive App
+Explore the fully interactive version of this dashboard:
+
+[View Live Dashboard]()
+
+Built with Streamlit and Plotly — no setup required, runs in your browser.
+
 ## Dashboard Preview
 
 ### Executive Summary
