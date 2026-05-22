@@ -109,4 +109,4 @@ Star schema built in Power BI with:
 ### Option 2 — Power BI Desktop
 1. Download `powerbi/sales_analytics.pbix`
 2. Open in Power BI Desktop (free at powerbi.microsoft.com)
-3. All data is imported — fully interactive without any additional setup
+3. All data is imported, fully interactive without any additional setup
